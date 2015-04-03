@@ -1,0 +1,16 @@
+{
+  "name": "js-input-helper",
+  "version": "0.1.0",
+  "description": "JS Input Labs Helper CLI",
+  "files" : [ "project-template/", "js-input-helper.js"  ],
+  "bin" : { "js-input-helper" : "./js-input-helper.js" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laurent David",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "~2.7.1",
+    "shelljs": "~0.4.0"
+  }
+}
